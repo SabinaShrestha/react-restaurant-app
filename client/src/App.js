@@ -1,4 +1,4 @@
-import React, { fragment } from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import NavBar from './components/NavBar';

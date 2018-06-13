@@ -1,4 +1,4 @@
-import React, {fragment} from 'react';
+import React from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 
 
@@ -18,7 +18,7 @@ const styles = {
 
 const NavBar = ({ history }) => (
   <nav>
-    
+    <NavLink exact activeStyle={styles.active} to="/">Restaurant</NavLink>
   </nav>
 )
 
